@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Project Name: Responsive Hero Section
+Youtube: https://youtube.com/@devRasen
+Copyright: ©MdRasen -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Hero Section | devRasen</title>
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-header">
+          <!-- Header Logo -->
+          <div class="header-logo">
+            <h3><span>RP</span>ortfolio</h3>
+          </div>
+          <!-- Header Menu -->
+          <div class="header-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#works">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </div>
+          <!-- Header Icons -->
+          <div class="header-icons">
+            <a href="#">
+              Hire Me
+              <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <!-- Hero Main -->
+        <div class="hero-main">
+          <div class="title">
+            <h1>Hello, I'm <br />Nicolash Ribe</h1>
+          </div>
+          <div class="designation">
+            <h3>-Web Developer</h3>
+          </div>
+          <div class="btns">
+            <a href="#" class="btn btn-service">My Services</a>
+            <a href="#" class="btn btn-contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
